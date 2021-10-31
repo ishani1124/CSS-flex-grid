@@ -5,8 +5,8 @@
     border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(3, [col-start] 1fr [col-end]) ;
-    grid-template-rows: [header-start]100px[header-end menu-start] 
-                        40px[menu-end box1-start] 100px[box1-end] 
+    grid-template-rows: [header-start]100px[header-end   menu-start] 
+                        40px[menu-end] 100px 
                         100px 100px;
     grid-gap: 20px;
 } 
@@ -15,7 +15,7 @@
 .Header{
     background-color: violet; 
     grid-row: header-start/header-end;
-    grid-column: col-start 1/ col-end 4;
+    grid-column: col-start 1/ col-end 3;
 }
 
 
