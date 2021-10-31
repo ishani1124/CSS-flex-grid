@@ -1,0 +1,65 @@
+.container{
+    margin: 50px 0 0 50px;
+    width: 600px;
+    background-color: white;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: MinMax(90px , 150px) 1fr 1fr 1fr ;
+    grid-template-rows: repeat(2 , MinMax(175px , min-content) )  ;
+   /* grid-template-areas: "Header Header Header"
+                         "Menu Menu ."
+                        "Box1 Box2 Sidebar"
+                        "Box3 Box4 Sidebar"
+                        ". Footer Footer"  ; */
+
+    grid-gap: 20px;
+} 
+
+
+.item1{
+    background-color: violet; 
+
+}
+
+
+.item2{
+background-color: yellowgreen;
+
+}
+
+
+.item3{
+  background-color: antiquewhite;
+  
+
+} 
+
+
+.item4{
+    background-color:  powderblue;
+   
+}
+
+
+.item5{
+    background-color: rgb(93, 172, 104);
+ 
+  }
+
+
+.item6{
+    background-color: rgb(201, 201, 142);
+
+  }
+
+
+.item7{
+    background-color: rgb(144, 144, 206);
+  
+  }
+
+
+.item8{
+    background-color: rgb(209, 90, 90);
+    
+}
