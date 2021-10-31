@@ -1,0 +1,68 @@
+.container{
+    margin: 50px 0 0 50px;
+    width: 600px;
+    background-color: white;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,  1fr ) ;
+    grid-template-rows: 100px   
+                        40px 100px 
+                        100px 100px;
+   grid-template-areas: "Header Header Header"
+                         "Menu Menu ."
+                        "Box1 Box2 Sidebar"
+                        "Box3 Box4 Sidebar"
+                        ". Footer Footer"  ;
+
+    grid-gap: 20px;
+} 
+
+
+.Header{
+    background-color: violet; 
+    
+    grid-area: Header;
+}
+
+
+.Menu{
+background-color: yellowgreen;
+grid-area: Menu;
+}
+
+
+.Box1{
+  background-color: antiquewhite;
+  grid-area: Box1;
+
+} 
+
+
+.Box2{
+    background-color:  powderblue;
+    grid-area: Box2;
+}
+
+
+.Box3{
+    background-color: rgb(93, 172, 104);
+    grid-area: Box3;
+  }
+
+
+.Box4{
+    background-color: rgb(201, 201, 142);
+    grid-area: Box4;
+  }
+
+
+.Sidebar{
+    background-color: rgb(144, 144, 206);
+  grid-area: Sidebar;
+  }
+
+
+.Footer{
+    background-color: rgb(209, 90, 90);
+    grid-area: Footer;
+}
